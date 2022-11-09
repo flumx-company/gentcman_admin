@@ -1,0 +1,9 @@
+
+@each $key, $value in $toast-colors {
+  .c-toast--#{$key} {
+      background-color: map-get($value, background);
+      * {
+        color: map-get($value, color);
+      }
+  }
+}

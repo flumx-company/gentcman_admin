@@ -1,0 +1,33 @@
+.c-toast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation-duration: 150ms;
+  margin: 0.5em 0;
+  padding: 18px 22px;
+  border-radius: 0.5em;
+  pointer-events: auto;
+  color: #fff;
+  min-height: 3em;
+  cursor: pointer;
+  word-break: break-word;
+
+  i {
+    margin-right: 10px;
+  }
+}
+
+.c-toast--top,
+.c-toast--bottom {
+  align-self: center;
+}
+
+.c-toast--top-right,
+.c-toast--bottom-right {
+  align-self: flex-end;
+}
+
+.c-toast--top-left,
+.c-toast--bottom-left {
+  align-self: flex-start;
+}
